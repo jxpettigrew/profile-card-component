@@ -6,37 +6,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" class="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <title>Frontend Mentor | Profile card component</title>
 </head>
 
 <body>
-  <div class="profile-card">
-    <div class="upper-card">
-      <img src="images/image-victor.jpg" alt="user avatar">
-      Victor Crest
-      26
-      London
+  <div class="background">
+    <div class="profile-card">
+      <div class="upper-card">
+        <img src="images/bg-pattern-card.svg" alt="card banner" id="card banner">
+        <img src="images/image-victor.jpg" alt="user avatar" id="user-avatar">
+      </div>
+      <div class="mid-card">
+        Victor Crest
+        26
+        London
+      </div>
+      <div class="lower-card">
+        <div class="follower-count">
+          80K
+          Followers
+        </div>
+        <div class="like-count">
+          803K
+          Likes
+        </div>
+        <div class="photo-count">
+          1.4K
+          Photos
+        </div>
+      </div>
     </div>
-    <div class="lower-card">
-      <div class="follower-count">
-        80K
-        Followers
-      </div>
-      <div class="like-count">
-        803K
-        Likes
-      </div>
-      <div class="photo-count">
-        1.4K
-        Photos
-      </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
     </div>
-  </div>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
   </div>
 </body>
 
