@@ -20,10 +20,10 @@ body {
     margin: auto;
     height: 375px;
     width: 350px;
+    overflow: hidden;
 }
 
 .upper-card {
-    /*background-image: url(images/bg-pattern-card.svg);*/
     height: 140px;
     margin-bottom: 75px;
 }
@@ -31,23 +31,30 @@ body {
 .mid-card {
     height: 70px;
     text-align: center;
+    line-height: 15px;
+    border-bottom: 1px solid lightgrey;
 }
 
-.lower-card {}
+.lower-card {
+    display: flex;
+    justify-content: space-evenly;
+}
 
 .attribution {
     align-self: flex-end;
 }
 
-/*#card-banner {
-    border-radius: 15px;
-    position: absolute;
-    z-index: 1;
-}*/
+.stats {
+    text-align: center;
+    line-height: 8px;
+    padding: 10px 0;
+}
+
+.stat-label-text {}
 
 #user-avatar {
     position: relative;
-    border: 10px, solid, white;
+    border: 6px solid white;
     border-radius: 50%;
     top: -50px;
     left: 125px;
