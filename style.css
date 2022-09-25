@@ -3,6 +3,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     color: hsl(229, 23%, 23%);
+    margin: auto 0;
 }
 
 .background {
@@ -16,8 +17,6 @@ body {
     z-index: -1;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
 }
 
 .profile-card {
@@ -52,15 +51,15 @@ body {
     font-weight: 700;
 }
 
+.location {
+    font-size: 14px;
+}
+
 .location,
 .stat-label-text,
 #age {
     font-weight: 400;
     color: hsl(227, 10%, 46%);
-}
-
-.location {
-    font-size: 14px;
 }
 
 .stats {
@@ -91,4 +90,25 @@ body {
 
 #age {
     margin-left: 5px;
+}
+
+@media screen and (max-width: 500px) {
+    .background {
+        background-image: url(images/bg-pattern-top.svg),
+            url(images/bg-pattern-bottom.svg),
+            linear-gradient(hsl(185, 75%, 39%), hsl(185, 75%, 39%));
+        background-position: 128% 195%, -25% -80%;
+        background-repeat: no-repeat, no-repeat;
+        height: 667px;
+        width: 375px;
+        z-index: -1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .attribution {
+        font-size: 12px;
+        align-self: center;
+    }
 }
