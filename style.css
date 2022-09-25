@@ -1,6 +1,8 @@
 body {
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
+    font-weight: 400;
+    color: hsl(229, 23%, 23%);
 }
 
 .background {
@@ -40,17 +42,38 @@ body {
     justify-content: space-evenly;
 }
 
-.attribution {
-    align-self: flex-end;
+
+.main-text {
+    font-weight: 700;
+}
+
+.location,
+.stat-label-text,
+#age {
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+
+.location {
+    font-size: 14px;
 }
 
 .stats {
     text-align: center;
-    line-height: 8px;
-    padding: 10px 0;
+    line-height: 5px;
+    padding: 15px 0;
 }
 
-.stat-label-text {}
+.stat-label-text {
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.attribution {
+    align-self: flex-end;
+    font-weight: 400;
+    font-size: 14px;
+}
 
 #user-avatar {
     position: relative;
@@ -59,4 +82,8 @@ body {
     top: -50px;
     left: 125px;
     z-index: 2;
+}
+
+#age {
+    margin-left: 5px;
 }
