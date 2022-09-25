@@ -6,7 +6,11 @@ body {
 }
 
 .background {
-    background-color: hsl(185, 75%, 39%);
+    background-image: url(images/bg-pattern-top.svg),
+        url(images/bg-pattern-bottom.svg),
+        linear-gradient(hsl(185, 75%, 39%), hsl(185, 75%, 39%));
+    background-position: -61% 203%, 149% -144%;
+    background-repeat: no-repeat, no-repeat;
     height: 720px;
     width: 1440px;
     z-index: -1;
@@ -26,6 +30,7 @@ body {
 }
 
 .upper-card {
+    background-image: url(images/bg-pattern-card.svg);
     height: 140px;
     margin-bottom: 75px;
 }
@@ -33,7 +38,7 @@ body {
 .mid-card {
     height: 70px;
     text-align: center;
-    line-height: 15px;
+    line-height: 10px;
     border-bottom: 1px solid lightgrey;
 }
 
@@ -60,7 +65,7 @@ body {
 
 .stats {
     text-align: center;
-    line-height: 5px;
+    line-height: 3px;
     padding: 15px 0;
 }
 
@@ -77,9 +82,9 @@ body {
 
 #user-avatar {
     position: relative;
-    border: 6px solid white;
+    border: 5px solid white;
     border-radius: 50%;
-    top: -50px;
+    top: 87px;
     left: 125px;
     z-index: 2;
 }
