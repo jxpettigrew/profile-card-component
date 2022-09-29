@@ -81,7 +81,7 @@ body {
 
 #user-avatar {
     position: relative;
-    border: 5px solid white;
+    border: 5px solid hsl(0, 0%, 100%);
     border-radius: 50%;
     top: 87px;
     left: 125px;
