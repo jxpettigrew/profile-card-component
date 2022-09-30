@@ -24,12 +24,12 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Screenshot
 
 ![](screenshots/profilecardfull.jpg)
-![](screenshots/profilecardmobile.jpg)
+<img src="screenshots/profilecardmobile.jpg" alt="mobile solution" width="375"/>
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/jxpettigrew/profile-card-component)
+- Live Site URL: [Add live site URL here](https://jxpettigrew.github.io/profile-card-component/)
 
 ## My process
 
